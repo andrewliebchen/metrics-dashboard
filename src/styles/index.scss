@@ -1,0 +1,26 @@
+$assetPath: "../../node_modules/@opengov/ovid/dist" !default;
+
+@import "../../node_modules/bourbon/app/assets/stylesheets/bourbon";
+@import "../../node_modules/mathsass/dist/math";
+
+@import "../../node_modules/@opengov/ovid/dist/stylesheets/library";
+@import "../../node_modules/@opengov/ovid/dist/stylesheets/ovid";
+
+.elements {
+  margin: 1em auto;
+}
+
+.element__wrapper {
+  width: 300px;
+  height: 300px;
+  position: relative;
+}
+
+.element {
+  border: 1px solid;
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  right: 1em;
+  bottom: 1em;
+}
